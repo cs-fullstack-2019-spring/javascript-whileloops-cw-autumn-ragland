@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classwork 03</title>
+</head>
+<body>
+
+Asks the user Enter a word. Enter 'q' to quit.
+Create a while loop that will not quit until they enter 'q'.
+HINT: Use true condition so loop continues forever and break to exit the loop
+//instructions
+
+<script>
+
+//alternate answer
+// var quit = "q";
+//
+//     do
+//         {
+//            var input = prompt("Enter a word")
+//         }
+//
+//     while (input != quit)
+
+var quit = "q";     //assign correct input to variable
+
+while (true)
+{
+    var input = prompt("Enter a word");     //ask user to input a string
+    if (input == quit)  //if the string is = variable quit break the loop
+    {break;}
+}
+
+</script>
+</body>
+</html>

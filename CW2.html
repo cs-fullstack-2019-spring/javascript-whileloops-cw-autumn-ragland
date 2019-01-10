@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classwork 02</title>
+</head>
+<body>
+
+Write a While loop that counts backwards from 10 to 0
+Log the current count at the end of each iteration EXCEPT if the current count is 5
+HINT: Use continue //instructions
+
+<script>
+
+    var count = 11;     //set first number as 11 to account for first subtraction
+
+    while (count >= 1)      //set parameters as less than or equal to 1 to account for first subtraction
+    {
+        count = count -1;   //subtract 1 from variable to count down
+        if (count == 5)     //if the variable after subtraction is 5 do not print current count
+        {
+            continue
+        }
+        console.log("Current count is : " + count);     //print string and variable
+    }
+
+</script>
+</body>
+</html>
